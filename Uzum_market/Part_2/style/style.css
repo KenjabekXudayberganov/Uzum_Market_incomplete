@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* father */
+.wrapper {
+    width: 100%;
+    display: flex;
+    gap: 94px;
+    justify-content: center;
+    margin-top: 155px;
+}
+/* father end */
+
+/* left side */
+.left-side {
+    display: flex;
+    gap: 8px;
+    margin-left: 55px;
+}
+.double-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.little_card {
+    width: 84px;
+    height: 113px;
+    border-radius: 2px;
+    background: #f2f4f7;
+}
+.card {
+    width: 416px;
+    height: 555px;
+    background: #f2f4f7;
+    display: flex;
+    padding-inline: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* left side end*/
+
+/* right side */
+
+.above {
+    display: flex;
+    flex-direction: column;
+}
+.product-heading h2 {
+    color: #1f2026;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.seller {
+    display: flex;
+    margin-top: 8px;
+    gap: 94px;
+}
+.delivery {
+    display: flex;
+    margin-top: 8px;
+    gap: 34px;
+}
+.ilogo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.about {
+    color: #1f2026;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.line {
+    margin-top: 25px;
+    width: 605.594px;
+    height: 1px;
+    background: rgba(54, 54, 64, 0.20);
+}
+/* right side */

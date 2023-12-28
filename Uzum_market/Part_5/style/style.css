@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    border: none;
+}
+/* father */
+.wrapper {
+    width: 100%;
+    display: flex;
+    gap: 94px;
+    justify-content: center;
+    margin-top: 155px;
+}
+/* father end */
+
+/* left side */
+.left-side {
+    display: flex;
+    gap: 8px;
+    margin-left: 55px;
+}
+.double-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.little_card {
+    width: 84px;
+    height: 113px;
+    border-radius: 2px;
+    background: #f2f4f7;
+}
+.card {
+    position: relative;
+    width: 416px;
+    height: 555px;
+    background: #f2f4f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    object-fit: contain;
+}
+.img img{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.arrows{
+    position: absolute;
+    width: 416px;
+    display: flex;
+    padding-inline: 20px;
+    justify-content: space-between;
+}
+.arrow {
+    position: absolute;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    left: 10px;
+}
+.right{
+    right: 10px;
+}
+/* left side end*/
+
+/* right side */
+
+/* above */
+.above {
+    display: flex;
+    flex-direction: column;
+}
+.product-heading h2 {
+    color: #1f2026;
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.seller {
+    display: flex;
+    margin-top: 8px;
+    gap: 94px;
+}
+.seller-name {
+    color: #1f2026;
+}
+.delivery {
+    display: flex;
+    margin-top: 8px;
+    gap: 34px;
+}
+.ilogo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.about {
+    color: #1f2026;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.line {
+    margin-top: 25px;
+    width: 100%;
+    height: 1px;
+    background: rgba(54, 54, 64, 0.2);
+}
+/* above end */
+
+/* price */
+.price {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 32px;
+}
+.price-text {
+    color: #1f2026;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.price-info {
+    display: flex;
+    gap: 22px;
+}
+.price-exact {
+    display: flex;
+    gap: 21px;
+}
+.price-purple {
+    display: flex;
+    gap: 2px;
+}
+.price-exact-actual {
+    color: #1f2026;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.price-exact-nonactual {
+    color: #8b8e99;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.exclusive {
+    padding-inline: 5px;
+    padding-block: 5px;
+    border-radius: 4px;
+    background: #7000ff;
+}
+.exclusive p {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 400;
+}
+.bigsales {
+    padding-inline: 5px;
+    padding-block: 5px;
+    border-radius: 4px;
+    background: #5000aa;
+}
+.bigsales p {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 400;
+}
+/* price end */
+
+/* limit fee */
+.limit-fee {
+    padding: 18px 11px;
+    border-radius: 12px;
+    background: #f2f4f7;
+    display: flex;
+    justify-content: space-between;
+}
+.limit-fee:hover {
+    cursor: pointer;
+    background: #eeeeee;
+    transition: 0.3s;
+}
+.monthly {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.monthly-price {
+    padding-inline: 7px;
+    padding-block: 5px;
+    border-radius: 8px;
+    background: #ff0;
+}
+.monthly-price p {
+    color: #1f2026;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+}
+.monthly-text {
+    color: #1f2026;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+/* limit fee end */
+
+/* basket */
+.basket {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 24px;
+}
+.double-basket {
+    display: flex;
+    gap: 8px;
+}
+.add-basket {
+    cursor: pointer;
+    padding-inline: 83px;
+    padding-block: 18px;
+    border-radius: 12px;
+    background: #7000ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-basket:hover {
+    background: #7610fc;
+    transition: 0.3s;
+}
+.add-basket p {
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.064px;
+}
+.purchase {
+    padding-inline: 28px;
+    padding-block: 18px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 1px solid #7000ff;
+}
+.purchase:hover {
+    background: #eeeeee;
+    transition: 0.3s;
+}
+.purchase p {
+    color: #7000ff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.064px;
+}
+.customer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 606px;
+    height: 42px;
+    border-radius: 8px;
+    background: #fff8e6;
+}
+.customer-number {
+    color: #1f2026;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+/* basket end */
+/* right side */
